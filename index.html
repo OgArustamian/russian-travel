@@ -12,19 +12,21 @@
   <div class="wrapper">
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="логотип с картой России">
-      <div class="header__lang-links">
-        <a class="header__lang-link header__lang-link_selected">Ru</a>
-        <a class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link header__lang-link_selected" href="#">Ru</a></li>
+        <li><a class="header__lang-link" href="#">En</a></li>
+      </ul>
     </header>
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="images/lead-polka.jpg" alt="Фото из поезда">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__block">
+          <img class="lead__image" src="images/lead-polka.jpg" alt="Фото из поезда">
+          <ficaption class="lead__caption">ваша полка — верхняя</ficaption>
+        </figure>
       </section>
-      <article class="intro">
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
         Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми
@@ -38,7 +40,7 @@
           <li>Природных заповедников <span class="intro__number">105</span></li>
           <li>Аэропортов <span class="intro__number">241</span></li>
         </ul>
-      </article>
+      </section>
       <section>
         <ul class="photo-grid">
           <li><img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Фото-карточка c русскими красотами"></li>
@@ -61,7 +63,7 @@
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://www.park-kosa.ru/" target="_blank">park-kosa.ru</a>
-            </div>
+          </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Фотография Куршской косы">
           <div class="place__paragraphs">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
@@ -139,15 +141,17 @@
         </a>
       </section>
     </main>
-    <footer class="footer">
-        <ul class="footer__links">
-          <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-          <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-          <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-          <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-          <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-        </ul>
-        <p class="footer__copyright">&copy; 2021. Оганнес Арустамян</p>
+    <footer>
+        <nav class="footer">
+          <ul class="footer__links">
+            <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+            <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+            <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+            <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+            <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+          </ul>
+          <p class="footer__copyright">&copy; 2021. Оганнес Арустамян</p>
+        </nav>
     </footer>
   </div>
 </body>
