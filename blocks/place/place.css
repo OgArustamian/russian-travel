@@ -35,7 +35,7 @@
   }
 
   .place:not(:last-child) {
-    margin-bottom: 73px;
+    margin-bottom: 50px;
   }
 }
 
