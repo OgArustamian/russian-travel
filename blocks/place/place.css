@@ -34,7 +34,11 @@
     row-gap: 32px;
   }
 
-  .place:not(:last-child) {
+  .place:first-child {
+    margin-bottom: 77px;
+  }
+
+  .place:nth-child(2) {
     margin-bottom: 50px;
   }
 }
