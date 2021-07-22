@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-Проект сдела по макету из [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0).
+Проект сделан по макету из [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0).
 В проекте использованы технологии адаптивной и резиновой верстки. Сайт хорошо смотрится на устройствах с разным разрешением экрана.  
 
 [Ссылка на проект](https://toxicyouth.github.io/russian-travel/)
